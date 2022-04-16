@@ -1,4 +1,4 @@
-class Pokemon { // Declaramos la Clase Pokemon
+export default class Pokemon { // Declaramos la Clase Pokemon
     constructor (name) { //Se crea un contructor nonde se le pasara name 
         this.name = name //name pasa this.mame para crear el nombre del objeto
     }
@@ -12,5 +12,3 @@ class Pokemon { // Declaramos la Clase Pokemon
     }                                                              //y con ${message} imprime la variable que se le paso
 
 }
-
-module.exports = Pokemon // se envia el modulo de la clase Pokemon y se manda a llamar con  "const Pokemon = require('./pokemon')"
