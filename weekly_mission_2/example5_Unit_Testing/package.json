@@ -1,0 +1,14 @@
+{
+  "name": "my_first_js_project",
+  "version": "1.0.0",
+  "description": "Live 1 Semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "carlogilmar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
