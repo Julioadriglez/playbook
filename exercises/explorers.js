@@ -58,3 +58,9 @@ const explorers = [
       }
     }
    ]
+
+console.log("Imprime el nombre de cada explorer")
+
+explorers.forEach(obj => 
+console.log(obj.name)
+)
