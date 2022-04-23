@@ -59,8 +59,7 @@ const explorers = [
     }
    ]
 
-console.log("Imprime el nombre de cada explorer")
-
-explorers.forEach(obj => 
-console.log(obj.name)
-)
+console.log("Ejemplo 1: Imprime el nombre de cada explorer con forEach")
+explorers.forEach(obj =>  console.log(obj.name)) //imprime el nombre de todos los exploradores.
+console.log("Ejemplo 2:imprime stack de cada esplorer con forEach")
+explorers.forEach(obj => console.log(obj.name, obj.stack)) //Implime el explorer y el estack
