@@ -13,7 +13,7 @@ class issues {
         return `Titulo: ${this.title}  Autor: ${this.author}`
     }
     get generalInfo(){
-        return  `El repositorio ${this.repositoryNameAssociated} de ${this.author} fue creado ${this.dateCreated}y se modifico ${this.lastUpdate}`
+        return  `El repositorio ${this.repositoryNameAssociated} de ${this.author} fue creado ${this.dateCreated} y se modifico ${this.lastUpdate}`
     }
 }
 const issues2 = new issues("pastelerria html", "html", "publico", 10, 100, "Julio Adrian", "10-mayo-2021", "10-mayo-2021")
