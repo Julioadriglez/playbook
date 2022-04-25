@@ -30,10 +30,10 @@ console.log(notificaciones.getMensaje())
 const mensaje = {
     usuario: "julio",
     nombreUsuario: "@julioGlez",
-    fechaCheacion: Date(),
+    fechaCreacion: Date(),
     mensaje: "efrwfcedrf fewrew rfdsfewr trwe",
     getEncabezadoMensaje: function(){
-        return `${this.usuario} ${this.nombreUsuario} ${this.fechaCheacion}`
+        return `${this.usuario} ${this.nombreUsuario} ${this.fechaCreacion}`
     },
     getMensaje: function(){
         return `${this.mensaje}`
