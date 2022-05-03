@@ -8,7 +8,7 @@ En esta semana realizamos 7 ejercicios
 * En el ejercicio 2 aprendí hacer diseño de Software con TDD con pruebas de unidad con jest.
 * En el ejercicio 3, 4, 5 se creó el proyecto desde los requerimientos y que interactúen entre sí.
 * El ejercicio 6 se creó un Express Server para crear app de backend.
-* En el ejercicio 7 se creó Express API
+* En el ejercicio 7 se creó Express API y se probo endpoints con Postman.
 
 |      Proyecto      | Práctica |                                        Link al repo                                        |
 | :----------------: | :-------: | :-----------------------------------------------------------------------------------------: |
